@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body{
+            background-color: #ffffff;
+        }
+
+        .container{
+            padding: 5rem 2rem;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <section class="section-course" id="project" >
+        <div class="container" id="project" style="text-align: center;">
+            <h2 style="font-size: 2.7rem;color: #0062ff;">
+                CONTACT ME<i class="fa-solid fa-mobile-screen-button fa-bounce" style="font-size: 2.8rem;"></i>
+            </h2>
+            <!-- <div class="about-heading2" style="margin-top: 0.3rem;font-weight:550">
+                GET IN TOUCH WITH ME.
+            </div> -->
+        </div>
+    </section>
+
+    <div class="container grid grid-two--cols"  style="gap: 5rem;padding-top: 1rem;padding-bottom: 5rem;">
+        <div class="contactcontent"  >
+            <form action="https://formspree.io/f/mdorvzvv" method="post">
+                <div class="grid grid-two--cols mb-3">
+                    <div>
+                        <label for="username">Name</label>
+                        <input type="text" name="username" id="username" required autocomplete="off" placeholder="Enter Your Name">
+                    </div>
+
+                    <div>
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" required autocomplete="off" placeholder="Enter Your E-mail">
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="subject">Subject</label>
+                    <input type="text" name="subject" id="subject" required autocomplete="off" placeholder="Enter Your Subject">
+                </div>
+
+                <div class="mb-3">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+                </div>
+
+                <div>
+                    <button type="submit" class="btn btn-submit" >Send Message</></button>
+                </div>
+            </form>
+        </div>
+
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15258.50134439883!2d74.5050617!3d17.0420381!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc11497d34a39a7%3A0x9f4a3d407582ef37!2sYelavi%2C%20Maharashtra%20416308!5e0!3m2!1sen!2sin!4v1700066675058!5m2!1sen!2sin" width="500" height="460" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    <div class="back">
+        <button type="submit" class="btn btn-submit"> <a href="index.html" style="color: white;font-weight: 600;">Go Back</a></button>        
+    </div>
+    
+</body>
+</html>
